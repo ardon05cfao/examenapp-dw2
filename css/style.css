@@ -1,0 +1,84 @@
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  color: #201a1a;
+  font-weight: 300;
+  background-color: #faedcd;
+	text-align: center
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+.block-title-large {
+  color: var(--color-negro);
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+.row:not(.no-gap) .col > .card {
+  margin-left: 5;
+  margin-right: 5;
+}
+
+#panel-nav .item-title{
+	text-align: left
+}
+
+#panel-products .item-content {
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 25px 2px #eee;
+}
+
+.img-fluid{
+	max-width: 100%;
+}
+
+#panel-products .item-price{
+	font-weight: 600;
+}
+
+#panel-products .item-media{
+	width: 130px;
+}
+
+#panel-products .item-title{
+	font-weight: 700;
+}
+
+#panel-contacto .img-fluid{
+	
+	max-width: 12%;
+	
+}
+
+#panel-contacto{
+	text-align: center
+}
+
+#panel-contacto .img-fluid{
+	
+	max-width: 50%;
+	text-align: center
+}
+
+#panel-contacto .informacion{
+	margin: 1px;
+}
+
+
+
